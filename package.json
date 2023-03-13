@@ -1,12 +1,11 @@
 {
-  "name": "js_sandbox",
+  "name": "vanilla_js_sandbox",
   "version": "1.0.0",
   "description": "JavaScript playground",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "babel-node": "babel-node --presets='@babel/preset-env' ",
-    "dev": "nodemon --exec npm run babel-node -- index.js"
+    "dev": "nodemon"
   },
   "keywords": [
     "runjs",
@@ -18,9 +17,6 @@
   "author": "Cem Kaan Kosali",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.21.0",
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2",
     "nodemon": "^2.0.21"
   }
 }
